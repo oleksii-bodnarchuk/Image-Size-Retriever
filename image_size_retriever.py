@@ -21,7 +21,7 @@ scope = [
 ]
 
 creds = ServiceAccountCredentials.from_json_keyfile_name(
-    "test-newage_service_key.json", scope
+    "service_key.json", scope
 )
 cl = gspread.authorize(creds)   # client authorization
 
